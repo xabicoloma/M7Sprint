@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    /* Agrega estilos al contenido principal aquí */
+}
+
+.footer {
+    height: 100px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.custom-image {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    }
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.post-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-buttons {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin-top: 40px
+}
+
+.section-title {
+    margin-bottom: 38px
+}
+
+.shadow,
+.subscription-wrapper {
+    box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important
+}
+
+.icon-primary {
+    color: #062caf
+}
+
+.icon-bg-circle {
+    position: relative
+}
+
+.icon-lg {
+    font-size: 50px
+}
+
+.icon-bg-circle::before {
+    z-index: 1;
+    position: relative
+}
+
+.icon-bg-primary::after {
+    background: #062caf !important
+}
+
+.icon-bg-circle::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: -35px;
+    left: 15px;
+    border-radius: 50%;
+    background: inherit;
+    opacity: .1
+}
+
+p,
+.paragraph {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif
+}
+
+.login-content {
+    max-width: 450px;
+    width: 100%;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centramos usando transform */
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
