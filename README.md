@@ -17,7 +17,7 @@ Crear las etiquetas en el siguiente orden
 - Familia
 
 Crear las Prioridades en el siguiente orden y con los siguientes colores
--Alta  // Color: #f00
--Media // Color: #ff0
--Baja  // Color: #008f39
+  -Alta  // Color: #f00
+  -Media // Color: #ff0
+  -Baja  // Color: #008f39
 
